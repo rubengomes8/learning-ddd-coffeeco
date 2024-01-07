@@ -6,11 +6,11 @@ import (
 
 	"github.com/Rhymond/go-money"
 	"github.com/google/uuid"
+	coffeeco "github.com/rubengomes8/learning-ddd-coffeeco/internal/chapter5"
 
-	coffeeco "github.com/rubengomes8/learning-ddd-coffeeco/internal"
-	"github.com/rubengomes8/learning-ddd-coffeeco/internal/payment"
-	"github.com/rubengomes8/learning-ddd-coffeeco/internal/purchase"
-	"github.com/rubengomes8/learning-ddd-coffeeco/internal/store"
+	"github.com/rubengomes8/learning-ddd-coffeeco/internal/chapter5/payment"
+	"github.com/rubengomes8/learning-ddd-coffeeco/internal/chapter5/purchase"
+	"github.com/rubengomes8/learning-ddd-coffeeco/internal/chapter5/store"
 )
 
 func main() {

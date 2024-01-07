@@ -1,4 +1,4 @@
-package coffeeco
+package chapter5
 
 import "github.com/google/uuid"
 

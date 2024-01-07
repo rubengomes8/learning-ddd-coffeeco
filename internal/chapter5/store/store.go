@@ -4,7 +4,7 @@ import (
 	"context"
 
 	"github.com/google/uuid"
-	coffeeco "github.com/rubengomes8/learning-ddd-coffeeco/internal"
+	coffeeco "github.com/rubengomes8/learning-ddd-coffeeco/internal/chapter5"
 )
 
 type Store struct {

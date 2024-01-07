@@ -6,9 +6,9 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	coffeeco "github.com/rubengomes8/learning-ddd-coffeeco/internal"
-	"github.com/rubengomes8/learning-ddd-coffeeco/internal/payment"
-	"github.com/rubengomes8/learning-ddd-coffeeco/internal/store"
+	coffeeco "github.com/rubengomes8/learning-ddd-coffeeco/internal/chapter5"
+	"github.com/rubengomes8/learning-ddd-coffeeco/internal/chapter5/payment"
+	"github.com/rubengomes8/learning-ddd-coffeeco/internal/chapter5/store"
 	"go.mongodb.org/mongo-driver/mongo"
 	"go.mongodb.org/mongo-driver/mongo/options"
 )

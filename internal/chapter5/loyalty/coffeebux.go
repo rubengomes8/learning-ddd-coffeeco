@@ -6,14 +6,14 @@ import (
 	"fmt"
 
 	"github.com/google/uuid"
-	coffeeco "github.com/rubengomes8/learning-ddd-coffeeco/internal"
-	"github.com/rubengomes8/learning-ddd-coffeeco/internal/store"
+	"github.com/rubengomes8/learning-ddd-coffeeco/internal/chapter5"
+	"github.com/rubengomes8/learning-ddd-coffeeco/internal/chapter5/store"
 )
 
 type CoffeeBux struct {
 	ID                                    uuid.UUID
 	store                                 store.Store
-	coffeeLover                           coffeeco.CoffeeLover
+	coffeeLover                           chapter5.CoffeeLover
 	FreeDrinksAvailable                   int
 	RemainingDrinkPurchasesUntilFreeDrink int
 }
@@ -27,7 +27,7 @@ func (c *CoffeeBux) AddStamp() {
 	}
 }
 
-func (c *CoffeeBux) Pay(ctx context.Context, purchases []coffeeco.Product) error {
+func (c *CoffeeBux) Pay(ctx context.Context, purchases []chapter5.Product) error {
 	lp := len(purchases)
 	if lp == 0 {
 		return errors.New("nothing to buy")

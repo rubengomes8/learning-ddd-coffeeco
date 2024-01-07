@@ -8,10 +8,10 @@ import (
 
 	"github.com/Rhymond/go-money"
 	"github.com/google/uuid"
-	coffeeco "github.com/rubengomes8/learning-ddd-coffeeco/internal"
-	"github.com/rubengomes8/learning-ddd-coffeeco/internal/loyalty"
-	"github.com/rubengomes8/learning-ddd-coffeeco/internal/payment"
-	"github.com/rubengomes8/learning-ddd-coffeeco/internal/store"
+	coffeeco "github.com/rubengomes8/learning-ddd-coffeeco/internal/chapter5"
+	"github.com/rubengomes8/learning-ddd-coffeeco/internal/chapter5/loyalty"
+	"github.com/rubengomes8/learning-ddd-coffeeco/internal/chapter5/payment"
+	"github.com/rubengomes8/learning-ddd-coffeeco/internal/chapter5/store"
 )
 
 type Purchase struct {
