@@ -33,7 +33,7 @@ When we can answer _yes_ to all of the following questions, it is a good sign th
 1. coffee lover is an entity, because we want them to be defined by their identity. Whenever we are talking to about a coffee lover and adding a CoffeeBux to their loyalty account, there should be no doubt as to which coffee lover we are applying these.
 2. store is an entity, because when we reference a store we need to identify which one we are talking about.
 3. product answers yes to all the 3 questions, so we will model it as a value object
-4. purchase is an entity, it should have an own id. If a customer ever wants a refund on an item, we will need to be able to reference a specific transaction
+4. purchase is an aggregate (store, products, payment) or an entity (?), it should have an own id. If a customer ever wants a refund on an item, we will need to be able to reference a specific transaction
 5. coffee bux is an entity
 
 - toMongoPurchase func allows us to decouple our purchase aggregate from the Mongo implementation. We should decouple all the other domain models from the database models, as well.
