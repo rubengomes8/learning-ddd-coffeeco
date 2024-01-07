@@ -1,6 +1,8 @@
 package coffeeco
 
-import "github.com/Rhymond/go-money"
+import (
+	"github.com/Rhymond/go-money"
+)
 
 type Product struct {
 	ItemName  string
