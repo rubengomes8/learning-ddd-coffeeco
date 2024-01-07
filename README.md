@@ -38,3 +38,10 @@ When we can answer _yes_ to all of the following questions, it is a good sign th
 
 - toMongoPurchase func allows us to decouple our purchase aggregate from the Mongo implementation. We should decouple all the other domain models from the database models, as well.
 - the repository layer should be very simple and lightweight. That is a sign that DDD is helping us there.
+
+## Extending our service
+Here are some features to implement:
+- Add an online store that allows customers to order a subscription
+- Add drinks in different sizes
+- Add unit tests
+- Add an integration test
