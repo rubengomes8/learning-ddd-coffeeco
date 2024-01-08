@@ -49,3 +49,8 @@ Here are some features to implement:
 - Add an integration test
 
 ## Chapter 6
+
+### Diagram of dependencies + Files structure
+![dependencies_diagram.png](images/dependencies_diagram.png)
+### Recommendation service calling partnerships service
+![services_interaction.png](images/services_interaction.png)
